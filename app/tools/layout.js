@@ -1,5 +1,5 @@
-import Footer from "@/components/Footer";
-import "./globals.css";
+import "../globals.css";
+import HeaderWrapper from "@/components/HeaderWrapper";
 
 export const metadata = {
   title: "Smart Online Calculators & Tools (2025) | Free & Easy to Use",
@@ -38,13 +38,11 @@ export const metadata = {
   category: "Online Calculators",
 };
 
-export default function RootLayout({ children }) {
+export default function ToolsLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <div>
+      <HeaderWrapper />
+      {children}
+    </div>
   );
 }

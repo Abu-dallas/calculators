@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://calculators.name.ng
+
+# Sitemaps
+Sitemap: https://calculators.name.ng/sitemap.xml
